@@ -1,0 +1,226 @@
+/* Estilos do site */
+
+@keyframes animaçao {
+   from { color: #ff000000;}
+   to { color: #000000;}
+}
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    
+}
+
+
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color:  #000000;
+    align-items: center;
+    top: 0;
+    left: 0;
+    
+  }
+
+.cabecalho{
+    height: 90%;
+    
+   }
+
+.logo{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    margin-left: 20px;
+    padding: 5px;
+   
+}
+
+.menu{
+    width: 40%;
+    
+}
+
+.iten, a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+   
+}
+
+/* main */
+
+
+.container_video {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container_video video {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.container_video .content {
+    z-index: 1;
+    width: 60%;
+    height: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    backdrop-filter: blur(15px) ;
+    background: rgba(10, 10, 10, 0.212);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-backdrop-filter: blur(15px);
+    
+
+}
+
+.container_video .content h1 { 
+    position: relative;  
+    margin: 0 auto;
+    padding: 10% 10%;
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: #ffffffdc;
+    /* animation-name: animaçao;
+    animation-duration: 3s; */
+     
+}
+
+
+.titulo {
+    font-size: 3em;
+    text-align: center;
+    padding: 10px, 0px, 10px, 0px;
+    margin: 0px 0 10px 0;
+    
+}
+
+.conteudo {
+    margin: 30px 10px 30px 10px;
+    position: relative;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin: 10px;    */
+}
+
+.container_article{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paragrafo {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    background-color: #ffffffd2;
+    display: inline;
+    padding: 15px;
+ 
+}
+
+.paineis {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin-left: 10px;
+    filter: drop-shadow(0 0 0.4em rgb(17, 16, 16));
+}
+
+.container_botão{
+    width: 100%;
+    height: 30vh;
+    background-color: #3839E0;
+    text-align: center;
+    align-items: center;
+   
+    
+}
+
+.container_botão h3{
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    color: rgb(255, 232, 130, 100);
+    
+}
+
+.container_botão p {
+    color: #ffffff;
+    font-size: 1.7em;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 20px ;
+}
+
+button {
+    position: relative;
+    display: block;
+    border-style: none;
+    border-radius: 10px;
+    z-index: 7;
+    width: 230px;
+    height: 60px;
+    background: #81FF70;
+    color: #5d5e50;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+
+.conteudo_energy {
+    margin: 60px 10px 0 10px;
+    position: relative;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* rodapé */
+
+.rodape{
+    height: 100px;
+}
+
+.roda {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;    
+}
+
+.imgrodape{
+    align-items: center;
+    height: 60%;
+}
+
