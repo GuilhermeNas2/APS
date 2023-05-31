@@ -3,76 +3,126 @@
     <head>
         <meta charset="UTF-8">
         <title>Hélios</title>
+        <link rel="icon" href="./imagens/logo.png">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="reset.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-     
+        <link rel="stylesheet" href="aos.css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
     </head>
     <body>
         <header>
             <div class="container">
                 <div class="cabecalho">
-                    <img class="logo" src="./imagens/logo.png">
+                   <a href="index.html"> <img class="logo" src="./imagens/logo.png"></a>
                 </div>
                 <div class="menu">
                     <nav class="list">
                         <a class="iten" href="index.html">Energia Solar</a>
                         <a class="iten" href="projeto/Projeto.html">Projeto</a>
                         <a class="iten" href="sobrenos/Sobrenos.html">Sobre nós</a>
-                        <a class="iten" href="contato/contato.html">Contato</a>
+                        <a class="iten" href="#rodapei">Contato</a>
                     </nav>
                 </div>
             </div>
         </header>
         <main class="principal">
-           <div class="container__main">
-                <h1 id="headline">ENERGIA SOLAR</br> A SOLUÇÃO PARA O FUTURO</h1>
-           </div>
-            <div class="conteudo">
-                <h2 class="titulo">Projeto Solari</h2>
-                    <p class="paragrafo">
-                        Normal (default): items are packed in their default position as if no value was set.
-                        flex-start / start: items packed to the start of the container. The (more supported) flex-start honors the flex-direction while start honors the writing-mode direction.
-                        flex-end / end: items packed to the end of the container. The (more support) flex-end honors the flex-direction while end honors the writing-mode direction.
-                        center: items centered in the container
-                        space-between: items evenly distributed; the first line is at the start of the container while the last one is at the end
-                        space-around: items evenly distributed with equal space around each line
-                        space-evenly: items are evenly distributed with equal space around them
-                        stretch: lines stretch to take up the remaining space
-                        The safe and unsafe modifier keywords can be used in conjunction with all the rest of these k
-                        eywords (although note browser support), and deal with helping you prevent aligning elements such that the content becomes inaccessible.
-                    </p><img class="paineis" src="./imagens/pro.jpg">
+            <div class="container_video">
+                <video autoplay muted loop>
+                    <source class="video_main" src= "video4.mp4" type="video/mp4">
+                 </video>
+                <div class="content">
+                 <h1 >ENERGIA SOLAR</br> A SOLUÇÃO PARA O FUTURO</h1>
                 </div>
-                <div class="conteudo">   
-                    <p class="paragrafo">
-                        Normal (default): items are packed in their default position as if no value was set.
-                        flex-start / start: items packed to the start of the container. The (more supported) flex-start honors the flex-direction while start honors the writing-mode direction.
-                        flex-end / end: items packed to the end of the container. The (more support) flex-end honors the flex-direction while end honors the writing-mode direction.
-                        center: items centered in the container
-                        space-between: items evenly distributed; the first line is at the start of the container while the last one is at the end
-                        space-around: items evenly distributed with equal space around each line
-                        space-evenly: items are evenly distributed with equal space around them
-                        stretch: lines stretch to take up the remaining space
-                  
-                        eywords (although note browser support), and deal w Normal (default): items are packed in their default position as if no value was set.
-                        flex-start / start: items packed to the start of the container. The (more supported) flex-start honors the flex-direction while start honors the writing-mode direction.
-                        flex-end / end: items packed to the end of the container. The (more support) flex-end honors the flex-direction while end honors the writing-mode direction.
-                        center: items centered in the container
-                        space-between: items evenly distributed; the first line is at the start of the container while the last one is at the end
-                        space-around: items evenly distributed with equal space around each line
-                        space-evenly: items are evenly distributed with equal space around them
-                        stretch: lines stretch to take up the remaining space
-                        The safe and unsafe modifier keywords can be used in conjunction with all the rest of these k
-                        eywords (although note browser support), and deal wnd unsafe modifier keywords can be used in conjunction with all the rest of these k
-                        eywords (although note browser support), and deal w
-                        eywords (although note browser support), and deal with helping you prevent aligning elements such that the content becomes inaccessible.
+           </div>
+           <div data-aos="fade-right"   class="conteudo">
+                <div class="container_articl">
+                    <h2 class="titulo">Sustentabilidade</h2>
+                        <p class="paragrafo">
+                         A sustentabilidade é um conceito fundamental na sociedade atual, que se concentra em encontrar formas de atender às nossas necessidades presentes sem comprometer a
+                         capacidade das gerações futuras de atenderem às suas próprias necessidades. Em outras palavras, é sobre encontrar um equilíbrio entre as necessidades econômicas, 
+                         sociais e ambientais da nossa sociedade.
+                        </p>
+                </div>
+                <img class="painei" src="./imagens/pro.jpg">
+            </div>
+            <div  class="container_botão">
+                <h3>Faça parte do nosso projeto</h3>
+                    <p>
+                     Nós da Prometeus somos uma empresa referência no ramo de energia solar, gerando economia e promovendo a sustentabilidade, tornando residências, 
+                     empresas e indústrias capazes de reduzir o consumo de energia em até 90%.
                     </p>
-                </div>    
+                   <button><a href="projeto/Projeto.html">Clique aqui</a></button>
+            </div>
+            <div  class="conteudo_energy">
+                <img class="paineis" src="./imagens/grafico.jpg">
+                    <div class="container_article">
+                        <h2 class="titulo">Energias Renováveis</h2>
+                            <p class="paragrafo">
+                                Energias renováveis são fontes de energia que são naturalmente reabastecidas e renovadas ao longo do tempo, como a luz solar, o vento, a água em movimento 
+                                (energia hidrelétrica), a biomassa e o calor da Terra (energia geotérmica). Essas fontes de energia são consideradas renováveis porque não são esgotáveis 
+                                ​e podem ser utilizadas de forma sustentável sem prejudicar as gerações futuras.
+                            </p>
+                    </div>
+            </div>
+            <div class="container_ibere">
+              <div class="container_ibere_texto" data-aos="fade-up" >
+                <h2>Alguma Dúvida ?</h2>
+                <p>
+                    Venha conferir o procedimento de montagem das placas em ramos industriais, e fique por dentro do seu funcionamento e seus benefícios.
+                </p>
+              </div>
+                <iframe id="video" data-aos="fade-down"  src="https://www.youtube.com/embed/_W1nQT7az8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="container_energia">
+                <div class="container_energia_texto">
+                    <p class="paragrafo">                   
+                        Ela é uma forma de energia renovável e limpa, que não emite poluentes ou gases de efeito estufa.</br> 
+                        A energia solar pode ser aproveitada de várias maneiras, mas a mais comum é através da instalação de painéis solares em telhados ou em áreas abertas, que convertem a 
+                        luz do sol em eletricidade utilizável.                      
+                    </p>
+                    <h3 class="titulo">
+                        Energia Solar
+                    </h3>
+                </div>
+            </div>
+            <div class="container_energia_2">
+                <div class="container_energia_texto_2">
+                    <h3 class="titulo">
+                        Painéis 
+                    </h3>
+                    <p class="paragrafo">                   
+                        Os painéis solares são compostos por células fotovoltaicas, que são feitas de materiais semicondutores como o silício. Quando a luz do sol atinge as células 
+                        fotovoltaicas, os elétrons são excitados e começam a se mover, criando uma corrente elétrica.
+                        
+                    </p>                  
+                </div>
+            </div>
         </main>
-        <footer class="rodape">
+    
+        <footer class="rodape" id="rodapei">
             <div class="roda">
-                <img class="imgrodape"src="./imagens/logo.png">
+                <div class="roda_endereço">
+                    <ul class="lista_roda">
+                        <li class="itens_roda"><img class="lista_img" src="./icones/casa.png">Endereço: Rua Agenor Soarez n 140</li>
+                        <li class="itens_roda"><img class="lista_img" src="./icones/email.png">Email: Frederico.Junior@gmail.com</li>
+                        <li class="itens_roda"><img class="lista_img" src="./icones/cel.png">Contato: 11 953547288</li>
+                    </ul>
+                  </div>  
+                <img class="imgrodape" src="./imagens/logo.png">
+                <div class="roda_icons">
+                   <a href=""> <img clas="roda_img" src="./icones/whats.png"></a>
+                    <a href="https://github.com/GuilhermeNas2" target="_blank"><img clas="roda_img" src="./icones/git.png"></a>
+                    <a href="https://www.instagram.com/_guilherme.n_/" target="_blank"><img clas="roda_img" src="./icones/insta.png"></a>
+                </div>
             </div>
         </footer>
+
+        <script src="aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
