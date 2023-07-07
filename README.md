@@ -1,10 +1,8 @@
-# APS
-
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> Projeto APS da faculdade </h1>
 
 <p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
+    Site desenvolvido por mim durante uma atividade na faculdade, o intuito desse projeto era fazer um site para uma empresa de energia eólica para que as </br>
+    pessoas pudessem ficar mais informadas sobre energia limpa. 
 </p>
 
 <p align="center">
@@ -21,7 +19,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="github/preview.jpg" width="100%">
+  <img alt="projeto DevLinks" src="Github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -31,14 +29,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
 - Git e Github
-- Figma
+- Bootstrap5
 
 ## 💻 Projeto
 
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Com esse trabalho eu tive a oportunidade de fixar a maior parte do meu conhecimento em Front-end, basicamente usei ele como experimento para retirar diversas </br>
+dúvidas que eu tinha sobre CSS, Html e Js, e ainda consegui estudar e aprender novos FrameWorks como Bootstrap. 
 
 ## :memo: Licença
 
