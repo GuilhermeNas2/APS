@@ -1,0 +1,1026 @@
+/* Estilos do site */
+
+@keyframes animaçao {
+   from { color: #ff000000;}
+   to { color: #000000;}
+}
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('./fonts/Ubuntu-Bold.ttf') format('truetype'),
+    url('./fonts/Ubuntu-BoldItalic.ttf') format('truetype'),
+    url('./fonts/Ubuntu-Italic.ttf') format('truetype'),
+    url('./fonts/Ubuntu-Light.ttf') format('truetype'),
+    url('./fonts/Ubuntu-LightItalic.ttf') format('truetype'),
+    url('./fonts/Ubuntu-Medium.ttf') format('truetype'),
+    url('./fonts/Ubuntu-MediumItalic.ttf') format('truetype'),
+    url('./fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 5px;
+}
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color:  #000000;
+    align-items: center;
+   
+  }
+
+.cabecalho{
+    height: 90%;
+    
+   }
+
+.logo{
+    display: flex;
+    width: 84%;
+    height: 79%;
+    margin-left: 20px;
+    padding: 5px;
+   
+}
+
+.menu{
+    
+    width: 40%;
+    height: 100%;    
+    display: flex;
+    align-items: center;
+    
+}
+
+.iten, a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.list{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 100%;    
+   
+}
+
+.botao-header {
+    display: none;
+}
+
+.botao-top {
+    display: none;
+}
+
+/* main */
+
+
+.container_video {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container_video video {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.container_video .content {
+    z-index: 1;
+    width: 60%;
+    height: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    backdrop-filter: blur(15px) ;
+    background: rgba(10, 10, 10, 0.212);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-backdrop-filter: blur(15px);
+    
+
+}
+
+.container_video .content h1 { 
+    position: relative;  
+    margin: 0 auto;
+    padding: 10% 10%;
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: #ffffffdc;   
+     
+}
+
+
+.titulo {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px, 0px, 10px, 0px;
+    margin: 0px 0 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.conteudo {
+    margin: 30px 0 30px 10px;
+    display: flex;    
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+    height: 70vh;
+   
+}
+
+.container_articl {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0 20px;
+    width: 40%;    
+
+}
+
+.painei {
+    width: 50%;
+    margin-right: 10px;
+    filter: drop-shadow(0 0 0.4em rgb(17, 16, 16));
+}
+
+.paragrafo {
+    font-size: 1.7em;
+    line-height: 1.7em;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+ 
+}
+
+
+.container_botão{
+    width: 100%;
+    height: 30vh;
+    background-color: #3839E0;
+    text-align: center;
+    align-items: center;
+   
+    
+}
+
+.container_botão h3{
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    color: rgb(255, 232, 130, 100);
+    
+}
+
+.container_botão p {
+    color: #ffffff;
+    font-size: 1.7em;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 20px ;
+}
+
+button {
+    position: relative;
+    display: block;
+    border-style: none;
+    border-radius: 10px;
+    z-index: 7;
+    width: 230px;
+    height: 60px;
+    background: #81FF70;
+    color: #5d5e50;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+
+
+.conteudo_energy {
+    margin: 60px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+    height: 60vh;
+    width: 90%;
+
+}
+
+.container_article{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 40%;
+
+}
+
+.paineis {
+    width: 50%;
+    filter: drop-shadow(0 0 0.4em rgb(17, 16, 16));
+}
+
+
+.container_ibere {
+    width: 100%;
+    height: 80vh;
+    margin: 20px 0 10px 0;
+    backdrop-filter: blur(15px) ;
+    background: rgba(255, 238, 0, 0.527);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .container_ibere_texto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+    margin-left: 20px;
+    text-align: center;
+              
+ }
+
+
+ .container_ibere_texto h2 {
+    margin: 40px 0;
+    font-size: 3em;
+ }
+
+ .container_ibere_texto p {
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.5em;
+    
+
+ }
+
+#video {
+   width: 60%;
+   height: 60vh;
+   margin: 5% 5%;
+   position: relative;
+   box-shadow: #000000;
+   flex-grow: 2;
+   
+
+} 
+
+.container_energia {
+    justify-content: flex-end;   
+}
+
+.bg {
+    background-image: url(src/img/solar.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left center;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.container_energia_texto {
+    background-color: #1a1616;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+}
+
+
+.container_energia_texto .titulo {
+   width: 20%;
+   writing-mode: vertical-lr;
+   font-weight: bold;
+   font-size: 5em;
+   margin: 10px 10px 10px 40px;
+   color: #ffa600;
+
+}
+
+.container_energia_texto .paragrafo {
+    width: 60%;
+    color: #ffffff;
+    line-height: 1.8em;
+    font-size: 1.7em;
+    margin: 40px 10px 20px 25px;
+   
+}
+
+.container_energia_texto_2{
+    background-color: #1a1616;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    height: 90vh;
+    justify-content: baseline;
+
+}
+
+.container_energia_2 {    
+    justify-content: flex-start;
+    
+}
+
+.container_energia_texto_2 .paragrafo{
+    width: 60%;
+    color: #ffffff;
+    line-height: 2em;
+    font-size: 1.7em;
+    margin: 20px 10px 20px 25px;
+
+}
+
+.container_energia_texto_2 .titulo {
+    width: 20%;
+    transform: rotate(270deg); 
+    font-size: 5em;
+    font-weight: bold;
+    margin: 10px 10px 10px 30px;
+    color: #ffa600;
+    
+}
+
+/* rodapé */
+
+.rodape{
+    height: 20vh;
+}
+
+.roda {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+
+}
+
+.roda_endereço {
+    height: 100%;
+}
+
+.lista_roda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+    
+}
+
+.lista_roda .itens_roda{
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    height: 20%;
+    margin-left: 30px;
+    
+}
+
+.itens_roda{
+    display: flex;
+    align-items: center;
+}
+
+.lista_img {
+    width: 10%;
+    height: 100%;
+    margin-right: 10px;
+    
+}
+
+.imgrodape{
+    height: 60%;
+    margin-right: 200px;
+}
+
+.roda_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.roda_img {
+    width: 20%;
+    height: 20%;
+    
+}
+
+@media ( max-width: 1200px) {
+    
+    
+    .menu{
+        width: 50%;
+        
+    }
+    
+    .iten, a{
+        font-size: 1.1em;
+        
+    }    
+    
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container_video .content h1 {   
+        
+        padding: 2% 8%;
+        font-size: 4.6em;      
+         
+    }
+
+    .conteudo {
+        align-items: center;
+    }
+           
+    .container_articl {       
+        margin: 20px 0 0 10px;          
+        text-align: center;
+    }
+    
+    .painei {        
+        height: 80%;
+        aspect-ratio: 1/1;      
+    }
+    
+    .paragrafo {
+        font-size: 1.5em;
+        line-height: 1.5em;
+                    
+    }
+
+    .container_botão{        
+        height: 35vh;      
+        
+    }
+    
+    .container_botão h3{      
+        font-size: 1.7em;               
+    }
+    
+    .container_botão p {       
+        font-size: 1.5em;
+       
+    }  
+    
+    button {
+        height: 50px;
+    }
+    
+    .conteudo_energy {
+        margin: 30px 0 0 0;
+        align-items: center;   
+        width: 100%;
+    
+    }
+    
+    .container_article{        
+        width: 50%;
+    
+    }
+    
+    .paineis {
+        width: 45%;
+        height: 80%;
+        aspect-ratio: 1/1;      
+    }
+
+    .container_energia_texto .paragrafo {              
+        line-height: 1.4em;
+        font-size: 1.4em;
+        margin: 35px 5px 15px 20px;
+       
+    }
+
+    .container_energia_texto_2 .paragrafo{ 
+        line-height: 1.6em;
+        font-size: 1.4em;
+        margin: 15px 5px 15px 20px;
+    
+    }
+}
+    
+@media (max-width: 800px) {   
+    
+    .iten, a{
+        font-size: .9em;
+        
+    }       
+    
+    .painei {        
+        height: 70%;
+              
+    }
+    
+    .paragrafo {
+        font-size: 1.3em;
+        line-height: 1.3em;
+                    
+    }
+
+    .paineis {
+        height: 65%;
+        width: 55%;
+    }
+
+    .container_ibere {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container_ibere_texto {
+        width: 90%;
+        padding: 5px;
+    }
+        
+    .container_ibere_texto h2 {
+        font-size: 1.4em;
+        
+    }
+    
+    .container_ibere_texto p {
+        font-size: 1.2em;
+    }
+    
+    #video {
+        width: 80%;
+        height: 20%;
+        
+    }
+
+    .container_energia_texto .titulo {
+        font-size: 4.7em;
+        padding: 5px;
+    }
+
+    .container_energia_texto .paragrafo {
+        font-size: 1.2em;
+    }
+
+    .container_energia_texto_2 .paragrafo {
+        font-size: 1.2em;
+    }
+
+    .container_energia_texto_2 .titulo {
+        font-size: 4.6em;
+    }
+}
+
+@media (max-width: 720px) {
+
+      
+    .container_video .content h1 {        
+        padding: 2% 8%;
+        font-size: 3.5em;      
+         
+    }
+
+    .menu {
+        position: relative;
+        display: inline;
+    }
+
+    .list {
+        position: absolute;        
+        flex-direction: column;
+        width: 80%;
+        height: 100vh;
+        z-index: 10;
+        justify-content: flex-start;
+        gap: 2rem;
+        background-color: #000000;
+        right: 0;
+        padding: 30px 0 0 30px;
+        font-size: 1.5rem;
+        display: none;
+       
+    }
+
+    .botao-header {
+        display: flex;
+        background-color: transparent;
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 35px;
+        
+    }
+
+    .botao-top {
+        display: flex;
+        background-color: transparent;
+        color: white;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .conteudo {
+        
+        flex-direction: column;
+        gap: 4rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%;
+        height: 80vh;
+        
+    }
+    
+    .container_articl {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;  
+          
+    }
+    
+    .paragrafo {
+        font-size: 1.3em;
+    }
+    
+    .painei {
+        width: 90%;
+        height: 28vh;
+    }
+    
+    .container_botão {
+        height: 30vh;        
+    }
+
+    .container_botão h3 {
+        font-size: 1.6em;
+        margin-bottom: 5px;
+    
+    }
+    
+    .container_botão p {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+    
+    button {
+        width: 40%;
+        height: 5vh;
+        font-size: 1em;
+    
+    }
+    
+    .conteudo_energy {
+        height: 85vh;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        justify-content: center;
+    }
+    
+    .paineis {
+        width: 90%;
+        height: 45%;
+    }   
+
+    .container_article {
+        width: 100%;
+    }
+
+    .container_article .titulo{
+        font-size: 1.7em;
+
+    }
+
+    .container_article .paragrafo {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    
+    .container_energia_texto {             
+        flex-direction: column;
+        width: 60%;
+        height: 80vh;
+        justify-content: center;
+    }
+
+
+    .container_energia_texto .titulo {   
+    writing-mode: horizontal-tb;
+    width: 100%;      
+    font-size: 4em;
+    box-sizing: border-box;
+    margin: 5px 5px 5px 20px;   
+
+    }
+
+    .container_energia_texto .paragrafo {
+        width: 80%;    
+        line-height: 1.4em;
+        font-size: 1.2em;
+        margin: 30px 10px 20px 20px;
+    
+    }
+
+    .container_energia_texto_2{
+        background-color: #1a1616;    
+        flex-direction: column;    
+        width: 60%;
+        height: 80vh;
+        justify-content:center;
+
+    }
+
+    .container_energia_texto_2 .paragrafo{
+        width: 80%;    
+        line-height: 1.4em;
+        font-size: 1.2em;
+        margin: 20px 10px 20px 25px;
+
+    }
+
+    .container_energia_texto_2 .titulo {
+        transform: none;
+        width: 80%;    
+        font-size: 4em;    
+        margin: 10px 10px 10px 20px;    
+        
+    }
+
+
+    .rodape {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        
+    }
+    
+    .roda {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;        
+           
+    }
+    
+    .roda_endereço {
+        display: none;
+        
+    }    
+   
+    .imgrodape {
+        width: 70%;
+        height: 10%;
+        margin: 0px;
+            
+    }
+    
+    .roda_icons {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+        height: 40%;
+    }    
+    
+}
+
+@media (max-width: 400px) { 
+
+body {
+        width: 100%;
+        height: 100vh;
+}
+
+/* CSS DO HEADER */
+.container {
+    width: 100%;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.cabecalho {
+    width: 30%;
+    margin-left: 0;
+}
+
+.logo {
+    margin-left: 0px;
+    width: 80%;
+    height: 60%;
+}
+
+.menu {
+    width: 70%;
+}
+
+.iten {
+    width: 15%;
+}
+
+.iten, a {
+    font-size: 0.8em;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.container_articl {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+
+}
+
+.paragrafo {
+    font-size: 1.2em;
+}
+
+.painei {
+    width: 90%;
+    height: 25vh;
+}
+
+.container_botão h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+
+}
+
+.container_botão p {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 40%;
+    height: 5vh;
+    font-size: 1em;
+
+}
+
+.conteudo_energy {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paineis {
+    width: 90%;
+}
+
+.container_article {
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.container_energia {
+    width: 100%;
+    height: 20%;
+    
+}
+
+.container_energia_texto{
+    width: 60%;
+    margin: 0px;
+    margin-bottom: 10px;
+
+}
+
+.container_energia .titulo {
+    font-size: 1.4em;
+    width: 20%;
+}
+
+.container_energia .paragrafo {
+    font-size: 0.8em;
+    width: 30%;
+    margin: 0px;
+    line-height: 1.5em;
+}
+
+
+
+.container_energia_2 {
+    width: 100%;
+    height: 20%;
+}
+
+.container_energia_texto_2{
+    width: 60%;
+    margin: 0px;
+}
+
+.container_energia_texto_2 .titulo {
+    font-size: 1.4em;
+    width: 20%;
+}
+
+.container_energia_texto_2 .paragrafo {
+    font-size: 0.8em;
+    width: 30%;
+    margin: 0px;
+    line-height: 1.5em;
+}
+
+.rodape {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    
+}
+
+.roda {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+       
+}
+
+.roda_endereço {
+    height: 40%;
+    display: flex;
+    
+}
+
+.lista_roda {
+    height: 70%;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px;
+    
+}
+
+.lista_img {
+    width: 10%;
+}
+
+.lista_roda .itens_roda {
+    font-size: 0.8em;
+    height: 15%;
+}
+
+.imgrodape {
+    width: 90%;
+    height: 20%;
+    margin: 0px;
+        
+}
+
+.roda_icons {
+    margin-top: 30px;
+    height: 40%;
+}
+}
+
+  

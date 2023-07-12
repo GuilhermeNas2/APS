@@ -1,0 +1,367 @@
+/* Estilos do site */
+
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+    src: url('../fonts/Ubuntu-Bold.ttf') format('truetype'),
+    url('../fonts/Ubuntu-BoldItalic.ttf') format('truetype'),
+    url('../fonts/Ubuntu-Italic.ttf') format('truetype'),
+    url('../fonts/Ubuntu-Light.ttf') format('truetype'),
+    url('../fonts/Ubuntu-LightItalic.ttf') format('truetype'),
+    url('../fonts/Ubuntu-Medium.ttf') format('truetype'),
+    url('../fonts/Ubuntu-MediumItalic.ttf') format('truetype'),
+    url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+
+body{
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 5px;
+}
+
+
+/* CSS do header */
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
+    background-color:  #000000;
+    align-items: center;
+    /* margin-bottom: 5px; */
+  }
+
+.cabecalho{
+    height: 90%;
+   }
+
+.logo{
+    display: flex;
+    width: 84%;
+    height: 79%;
+    margin-left: 20px;
+    padding: 5px;
+     
+}
+
+.menu{
+    width: 40%;
+    
+}
+
+
+.iten, a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+   
+}
+
+/* CSS do main */
+
+.imgdesenho{
+  width: 100%;
+  height: 100vh;
+}
+
+.conteudo{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0 10px 0;
+}
+
+.container_paragrafo{
+  padding: 10px;
+  width: 70%;
+  font-family: 'Ubuntu', sans-serif;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  
+}
+
+.container_article{
+  text-align: center;
+  font-size: 3em;
+  width: 80%;
+}
+
+.paragrafo{
+  font-size: 1.9em;
+  line-height: 1.8em;
+  padding: 15px;
+  margin: 20px 0 30px 0;
+  
+}
+
+.saibamais {
+  display: block;
+  border-style: none;
+  border-radius: 10px;
+  z-index: 7;
+  width: 230px;
+  height: 60px;
+  background: #ff8c08;
+  color: #5d5e50;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px auto;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+   
+}
+
+.saibamais:hover {
+  background-color: rgb(230, 81, 12);
+  font-size: 1.7em;
+  width: 260px;
+  height: 70px;
+  transition: 1s;
+
+}
+
+.conteudo2{
+  display: flex;
+  height: 80vh;
+  backdrop-filter: blur(15px) ;
+  background: rgba(38, 0, 255, 0.747);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(15px);
+  align-items: center;
+ 
+}
+
+.imgpainel{
+  width: 100%;
+  height: 80%;
+  background: rgba(10, 10, 10, 0.212);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  
+}
+
+.imgretorno{
+  width: 100%;
+  height: 70%;
+  background: rgba(10, 10, 10, 0.212);
+  box-shadow: 0 0 10px 1px rgb(86, 25, 124);
+  margin: 20px 20px 20px 0;
+}
+
+.container_paragrafo2{
+  line-height: 5em;
+  margin-left: 15px;
+  padding: 10px;
+  width: 80%;
+}
+.container_article2{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding: 15px;
+  flex-direction: column;
+  font-size: 3em;
+  width: 80%;
+  color: #ffffff;
+}
+
+.paragrafo2{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+  line-height: 1.5em;
+  text-align: left;
+  font-size: 1.8em;
+  color: #f0f0f1;
+  
+}
+
+.container_paragrafo3{
+  line-height: 4em;
+  background-color: #ffffffd2;
+  padding: 10px;
+  width: 80%;
+  font-family: 'Ubuntu', sans-serif;
+}
+.container_article3{
+  text-align: center;
+  padding: 20px;
+  flex-direction: column;
+  font-size: 3em;
+  width: 80%;
+}
+
+.paragrafo3{
+  font-size: 1.7em;
+  line-height: 1.7em;
+  padding: 15px;   
+
+}
+
+.saibamais_calc{
+  display: block;
+  border-style: none;
+  border-radius: 10px;
+  z-index: 7;
+  width: 230px;
+  height: 60px;
+  background: #087bffd2;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px auto;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.saibamais_calc:hover{
+  background-color: rgb(12, 230, 103);
+  font-size: 1.7em;
+  width: 260px;
+  height: 70px;
+  transition: 1s;
+
+
+}
+
+input[type="text"] {
+  font-size: 30px;
+  width: 95%;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #808080;
+  cursor: auto;
+  border-width: 2px;
+  border-style: solid;
+  border: #000000;
+  border: 2px;
+  border-radius: 8px;
+
+}
+.container_calc {
+  margin: 20px;
+  box-sizing: border-box;
+  padding: 15px;
+  border: #000000;
+  border: 2px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #f0f0f1;
+  align-items: center;
+  border-radius: 8px;
+  width: 25%;
+  height: 65%;
+}
+
+#botão{
+  background-color: #ddff00;
+}
+
+button {
+  background-color: #007ffe;
+  color: rgb(0, 0, 0);
+  padding: 16px 35px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75); 
+}
+
+#botão:hover{
+  background-color: #1ac61d;
+  box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.75); 
+}
+
+.btn_calc:hover {
+  background-color: #1ac61d;
+  box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.75); 
+}
+
+
+/* CSS do footer */
+.rodape{
+  height: 20vh;
+}
+
+.roda {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+
+}
+
+.roda_endereço {
+  height: 100%;
+}
+
+.lista_roda {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20vh;
+  
+}
+
+.lista_roda .itens_roda{
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+  height: 20%;
+  margin-left: 30px;
+  
+}
+
+.itens_roda{
+  display: flex;
+  align-items: center;
+}
+
+.lista_img {
+  width: 10%;
+  height: 100%;
+  margin-right: 10px;
+  
+}
+
+.imgrodape{
+  height: 60%;
+  margin-right: 200px;
+}
+
+.roda_icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.roda_img {
+  width: 20%;
+  height: 20%;
+ 
+}
+
+  

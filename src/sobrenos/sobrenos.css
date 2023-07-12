@@ -1,0 +1,244 @@
+/* Estilos do site */
+
+
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+    src: url('../fonts/Ubuntu-Bold.ttf') format('truetype'),
+    url('../fonts/Ubuntu-BoldItalic.ttf') format('truetype'),
+    url('../fonts/Ubuntu-Italic.ttf') format('truetype'),
+    url('../fonts/Ubuntu-Light.ttf') format('truetype'),
+    url('../fonts/Ubuntu-LightItalic.ttf') format('truetype'),
+    url('../fonts/Ubuntu-Medium.ttf') format('truetype'),
+    url('../fonts/Ubuntu-MediumItalic.ttf') format('truetype'),
+    url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+  
+body{
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 5px;
+}
+
+.container_header {
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color:  #000000;
+    align-items: center;
+    
+  }
+
+.cabecalho{
+    height: 90%;
+   }
+
+.logo_img{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    margin-left: 20px;
+    padding: 5px;
+     
+}
+
+.menu{
+    width: 40%;
+    
+}
+
+.iten, a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+   
+}
+/* CSS main */
+
+.headline h1 {
+  font-size: 5.5em;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  width: auto;
+  backdrop-filter: blur(15px) ;
+  background: rgba(42, 92, 199, 0.705);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(15px);
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+
+.container_principal {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0 30px 0;
+  
+}
+
+.container_principal_texto{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 100vh;
+  margin: 10px 10px 15px 10px;
+ 
+   
+}
+
+.container_principal_texto h2{
+  font-size: 3em;
+  text-align: center;
+}
+
+.container_principal_texto p {
+  text-align: center;
+  font-size: 1.7em;
+
+}
+
+.criadores {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cubo{
+  height: 30vh;
+  width: 40%;
+  backdrop-filter: blur(15px) ;
+  background: rgba(42, 92, 199, 0.705);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  
+   
+}
+
+.container_foto {
+  width: 100%;
+  height: 40%;
+  justify-content: center;
+    
+  
+}
+.foto {
+ padding: 5% ;
+ margin: 5px 20px ;
+ width: 80%;
+ height: 15vh;
+ border-radius: 100%
+  
+}
+
+.container_nome {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0 20% 0;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  
+}
+
+.container_nome h5 {
+  font-size: 1.6em;
+  color: rgb(255, 255, 255);
+  
+}
+
+.container_nome p {
+  color: #000000;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+/* CSS rodapé */
+
+.rodape{
+  height: 20vh;
+}
+
+.roda {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+
+}
+
+.roda_endereço {
+  height: 100%;
+}
+
+.lista_roda {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20vh;
+  
+}
+
+.lista_roda .itens_roda{
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+  height: 20%;
+  margin-left: 30px;
+  
+}
+
+.itens_roda{
+  display: flex;
+  align-items: center;
+}
+
+.lista_img {
+  width: 10%;
+  height: 100%;
+  margin-right: 10px;
+  
+}
+
+.imgrodape{
+  height: 60%;
+  margin-right: 200px;
+}
+
+.roda_icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.roda_img {
+  width: 20%;
+  height: 20%;
+ 
+}

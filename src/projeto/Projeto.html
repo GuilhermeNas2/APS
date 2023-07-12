@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hélios</title>
+        <link rel="icon" href="../imagens/logo.png">
+        <link rel="stylesheet" type="text/css" href="projeto.css">
+        <link rel="stylesheet" type="text/css" href="../reset.css">
+        <link rel="stylesheet" href="../aos.css" />
+        
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="cabecalho">
+                   <a href="../index.html"> <img class="logo" src="../imagens/logo.png"></a>
+                </div>
+                <div class="menu">
+                    <nav class="list">
+                        <a class="iten" href="../index.html">Energia Solar</a>
+                        <a class="iten" href="Projeto.html">Projeto</a>
+                        <a class="iten" href="../sobrenos/Sobrenos.html">Sobre nós</a>
+                        <a class="iten" href="#rodapei">Contato</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+        <div class="imagem">
+                <img class="imgdesenho"src="../imagens/desenho.jpg">
+        </div>
+            <div class="container_principal">
+                <div data-aos="fade-right"   class="conteudo">
+                    <div class="container_paragrafo">
+                        <div class="container_article">
+                            <h2>
+                                Economia de Energia
+                            </h2>
+                        </div>
+                            <p class="paragrafo">
+                                Um exemplo prático de como é possível economizar energia usando energia solar é a instalação de painéis solares em uma casa residencial para gerar eletricidade. 
+                                <br>
+                                Quando a energia solar é capturada pelos painéis solares, ela é convertida em eletricidade que pode ser usada para alimentar a casa.
+                            </p>
+                            <button class="saibamais"><a href="https://cemirim.com.br/economia-de-energia/" target="_blank">Saiba mais</a></button>
+                    </div>            
+                        <div class="imagem">
+                            <img class="imgpainel"src="../imagens/painel.jpg">
+                        </div>
+                </div> 
+            </div>
+            <div   class="conteudo2" >
+                <div class="imagem">
+                    <img class="imgretorno"src="../imagens/retorno.jpg">
+                </div>
+                <div class="container_paragrafo2">
+                    <div class="container_article2">
+                        <h2>
+                            Retorno Sobre o Investimento
+                        </h2>
+                    </div>
+                        <p class="paragrafo2">
+                            Ao reduzir a dependência de fontes de energia mais caras e poluentes, a energia solar pode ajudar a economizar dinheiro em contas de energia.
+                            <br>
+                            Ao gerar eletricidade de forma limpa e renovável, a casa pode reduzir sua dependência de fontes de energia mais caras e poluentes, ajudando a economizar dinheiro e a proteger o meio ambiente, 
+                            além do retorno sobre o investimento.
+                        </p>
+                </div>  
+            </div>
+            <div  data-aos="fade-up" class="conteudo">
+                <div class="container_paragrafo3">
+                    <div class="container_article3">
+                        <h2>
+                            Economizando Energia
+                        </h2>
+                    </div>
+                        <p class="paragrafo3">
+                            Considerando uma média de 6 horas de Sol pleno, um painel on-grid de 265 W de potência geraria mais ou menos 38,16 kWh/mês. Para uma casa que esteja na média de consumo nacional (152,2 kWh/mês), isso equivale a 25% de toda a energia necessária para a residência.
+                            Para saber o quanto de dinheiro é possivel economizar, podemos usar uma simples conta:
+                            <br> 
+                            <strong> Economia de energia = (Energia gerada por painéis solares(228,96kw)) x (Preço da energia elétrica(R$ 0,92 por kWh)) x (% da energia solar utilizada(0.25 ou 25%))</strong>
+                        </p>
+                        <button class="saibamais_calc"><a href="https://calculadora.solar" target="_blank">Explorar</a></button>
+                </div>  
+                <div class="container_calc" >
+                    <input type="text" id="display" readonly>
+                    <br>
+                    <button class="btn_calc" onclick="clearDisplay()">C</button>
+                    <button class="btn_calc" onclick="addToDisplay('(')">(</button>
+                    <button class="btn_calc" onclick="addToDisplay(')')">)</button>
+                    <button class="btn_calc" onclick="addToDisplay('/')">÷</button>
+                    <br>
+                    <button class="btn_calc" onclick="addToDisplay('7')">7</button>
+                    <button class="btn_calc" onclick="addToDisplay('8')">8</button>
+                    <button class="btn_calc" onclick="addToDisplay('9')">9</button>
+                    <button class="btn_calc" onclick="addToDisplay('*')">x</button>
+                    <br>
+                    <button class="btn_calc" onclick="addToDisplay('4')">4</button>
+                    <button class="btn_calc" onclick="addToDisplay('5')">5</button>
+                    <button class="btn_calc" onclick="addToDisplay('6')">6</button>
+                    <button class="btn_calc" onclick="addToDisplay('-')">-</button>
+                    <br>
+                    <button class="btn_calc" onclick="addToDisplay('1')">1</button>
+                    <button class="btn_calc" onclick="addToDisplay('2')">2</button>
+                    <button class="btn_calc" onclick="addToDisplay('3')">3</button>
+                    <button class="btn_calc" onclick="addToDisplay('+')">+</button>
+                    <br>
+                    <button class="btn_calc" onclick="addToDisplay('0')">0</button>
+                    <button class="btn_calc" onclick="addToDisplay('.')">.</button>
+                    <button class="btn_calc" onclick="addToDisplay('%')">%</button>
+                    <button id="botão"onclick="calculate()">=</button>
+                </div>  
+        </main>
+       
+        <footer class="rodape" id="rodapei">
+            <div class="roda">
+                <div class="roda_endereço">
+                    <ul class="lista_roda">
+                        <li class="itens_roda"><img class="lista_img" src="../icones/casa.png">Endereço: Rua Agenor Soarez n 140</li>
+                        <li class="itens_roda"><img class="lista_img" src="../icones/email.png">Email: Frederico.Junior@gmail.com</li>
+                        <li class="itens_roda"><img class="lista_img" src="../icones/cel.png">Contato: 11 953547288</li>
+                    </ul>
+                  </div>  
+                <img class="imgrodape" src="../imagens/logo.png">
+                <div class="roda_icons">
+                   <a href=""> <img clas="roda_img" src="../icones/whats.png"></a>
+                    <a href="https://github.com/NoobwanX9" target="_blank"><img clas="roda_img" src="../icones/git.png"></a>
+                    <a href="https://www.instagram.com/_guilherme.n_/" target="_blank"><img clas="roda_img" src="../icones/insta.png"></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="calcu.js">
+          
+        </script>
+        <script src="../aos.js"></script>
+          <script>
+        AOS.init();
+        </script>
+
+       
+        
+    </body>
+</html>
